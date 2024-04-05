@@ -1,0 +1,78 @@
+/* 
+  Localizable.strings
+  Tracker
+
+  Created by Ivan Cherkashin on 31.01.2024.
+  
+*/
+"Trackers" = "Trackers";
+"Statistics" = "Statistics";
+"Filters" = "Filters";
+"Delete" = "Delete";
+"Edit" = "Edit";
+"Unpin" = "Unpin";
+"Pin" = "Pin";
+"DeleteTheTracker" = "Are you sure you want to delete the tracker?";
+"Delete" = "Delete";
+"Undo" = "Undo";
+"Pinned" = "Pinned";
+"WhatWillWeTrack" = "What will we track?";
+"NothingFound" = "Nothing found";
+"Search" = "Search";
+"NoAnalyze" = "Nothing to analyze yet";
+"TrackersCompleted" = "Trackers completed";
+"BestPeriod" = "Best period";
+"Average" = "Average";
+"IdealDays" = "Ideal days";
+"IrregularEvents" = "Irregular events";
+"Habit" = "Habit";
+"TrackerCreation" = "Tracker creation";
+"NewHabit" = "New habit";
+"HabitEditing" = "Habit editing";
+"38CharacterLimit" = "38 character limit";
+"EnterNameOfTracker" = "Enter the name of the tracker";
+"Create" = "Create";
+"Save" = "Save";
+"Category" = "Category";
+"Schedule" = "Schedule";
+"NewIrregularEvent" = "New irregular event";
+"Done" = "Done";
+"AddCategory" = "Add Category";
+"StubLabelHabitsAndEvents" = "Habits and events can be combined according to the meaning";
+"CategoryNotNeeded" = "Is this category definitely not needed?";
+"TrackersWillAlsoDeleted" = "Trackers belonging to this category will also be deleted";
+"EnterNameOfCategory" = "Enter the name of the category";
+"Error" = "Error";
+"ErrorCreatingCategory" = "Error when creating a new category";
+"AllTrackers" = "All trackers";
+"TrackersForToday" = "Trackers for today";
+"Completed" = "Completed";
+"NotCompleted" = "Not completed";
+"Monday" = "Monday";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thursday" = "Thursday";
+"Friday" = "Friday";
+"Saturday" = "Saturday";
+"Sunday" = "Sunday";
+"Mon" = "Mon";
+"Tue" = "Tue";
+"Wed" = "Wed";
+"Thu" = "Thu";
+"Fri" = "Fri";
+"Sat" = "Sat";
+"Sun" = "Sun";
+"Sports" = "Sports";
+"Fitness" = "Fitness";
+"TableTennis" = "Table Tennis";
+"Yoga" = "Yoga";
+"Rest" = "Rest";
+"ViewingTheMovie" = "Viewing the movie";
+"MeetingWithFriends" = "Meeting with Friends";
+"Emoji" = "Emoji";
+"Color" = "Color";
+"Technologies" = "These are technologies!";
+"TrackOnlyWant" = "Track only what you want";
+"EvenNotLiters" = "Even if it's not liters of water and yoga";
+"NewCategory" = "New category";
+"EditingCategory" = "Editing a category";

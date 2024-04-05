@@ -1,0 +1,78 @@
+/* 
+  Localizable.strings
+  Tracker
+
+  Created by Ivan Cherkashin on 31.01.2024.
+  
+*/
+"Trackers" = "Трекеры";
+"Statistics" = "Статистика";
+"Filters" = "Фильтры";
+"Delete" = "Удалить";
+"Edit" = "Редактировать";
+"Unpin" = "Открепить";
+"Pin" = "Закрепить";
+"DeleteTheTracker" = "Уверены что хотите удалить трекер?";
+"Delete" = "Удалить";
+"Undo" = "Отменить";
+"Pinned" = "Закрепленные";
+"WhatWillWeTrack" = "Что будем отслеживать?";
+"NothingFound" = "Ничего не найдено";
+"Search" = "Поиск";
+"NoAnalyze" = "Анализировать пока нечего";
+"TrackersCompleted" = "Трекеров выполнено";
+"BestPeriod" = "Лучший период";
+"Average" = "Среднее значение";
+"IdealDays" = "Идеальные дни";
+"IrregularEvents" = "Нерегулярные события";
+"Habit" = "Привычка";
+"TrackerCreation" = "Создание трекера";
+"NewHabit" = "Новая привычка";
+"HabitEditing" = "Редактирование привычки";
+"38CharacterLimit" = "Ограничение 38 символов";
+"EnterNameOfTracker" = "Введите название трекера";
+"Create" = "Cоздать";
+"Save" = "Сохранить";
+"Category" = "Категория";
+"Schedule" = "Расписание";
+"NewIrregularEvent" = "Новое нерегулярное событие";
+"Done" = "Готово";
+"AddCategory" = "Добавить категорию";
+"StubLabelHabitsAndEvents" = "Привычки и события можно \nобъединить по смыслу";
+"CategoryNotNeeded" = "Эта категория точно не нужна?";
+"TrackersWillAlsoDeleted" = "Трекеры, относящиеся к данной категории также будут удалены";
+"EnterNameOfCategory" = "Введите название категории";
+"Error" = "Ошибка";
+"ErrorCreatingCategory" = "Ошибка при создании новой категории";
+"AllTrackers" = "Все трекеры";
+"TrackersForToday" = "Трекеры на сегодня";
+"Completed" = "Завершенные";
+"NotCompleted" = "Не завершенные";
+"Monday" = "Понедельник";
+"Tuesday" = "Вторник";
+"Wednesday" = "Среда";
+"Thursday" = "Четверг";
+"Friday" = "Пятница";
+"Saturday" = "Суббота";
+"Sunday" = "Воскресенье";
+"Mon" = "Пн";
+"Tue" = "Вт";
+"Wed" = "Ср";
+"Thu" = "Чт";
+"Fri" = "Пт";
+"Sat" = "Сб";
+"Sun" = "Вс";
+"Sports" = "Спорт";
+"Fitness" = "Фитнес";
+"TableTennis" = "Настольный теннис";
+"Yoga" = "Йога";
+"Rest" = "Отдых";
+"ViewingTheMovie" = "Просмотр фильма";
+"MeetingWithFriends" = "Встреча с друзьями";
+"Emoji" = "Emoji";
+"Color" = "Цвет";
+"Technologies" = "Вот это технологии!";
+"TrackOnlyWant" = "Отслеживайте только \то, что хотите";
+"EvenNotLiters" = "Даже если это \тне литры воды и йога";
+"NewCategory" = "Новая категория";
+"EditingCategory" = "Редактирование категории";
