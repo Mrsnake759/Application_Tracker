@@ -2,7 +2,7 @@
 //  TrackerRecord.swift
 //  Tracker
 //
-//  Created by Ivan Cherkashin on 25.12.2023.
+//  Created by artem on 13.03.2024.
 //
 
 import Foundation
