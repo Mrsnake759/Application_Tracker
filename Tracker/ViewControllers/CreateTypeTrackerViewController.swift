@@ -2,7 +2,7 @@
 //  CreateTypeTrackerViewController.swift
 //  Tracker
 //
-//  Created by Ivan Cherkashin on 26.12.2023.
+//  Created by artem on 22.03.2024.
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  OnboardingStorage.swift
 //  Tracker
 //
-//  Created by Ivan Cherkashin on 27.01.2024.
+//  Created by artem on 27.03.2024.
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  Extension Int.swift
 //  Tracker
 //
-//  Created by Ivan Cherkashin on 18.01.2024.
+//  Created by artem on 13.03.2024.
 //
 
 import Foundation

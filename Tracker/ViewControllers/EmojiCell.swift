@@ -2,7 +2,7 @@
 //  EmojiCell.swift
 //  Tracker
 //
-//  Created by Ivan Cherkashin on 22.01.2024.
+//  Created by artem on 22.03.2024.
 //
 
 import UIKit

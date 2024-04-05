@@ -2,7 +2,7 @@
 //  CategoryViewController.swift
 //  Tracker
 //
-//  Created by Ivan Cherkashin on 13.01.2024.
+//  Created by artem on 12.03.2024.
 //
 
 import UIKit
@@ -162,7 +162,7 @@ final class CategoryViewController: UIViewController {
             firstText: NSLocalizedString("Delete", comment: ""),
             secondText: NSLocalizedString("Undo", comment: "")) { [weak self] in
                 guard let self = self else { return }
-                viewModel.deleteCategory(category)
+                self.viewModel.deleteCategory(category)
             }
         alertPresenter?.showAlert(model: alertModel)
     }

@@ -2,7 +2,7 @@
 //  TabBarControleer.swift
 //  Tracker
 //
-//  Created by Ivan Cherkashin on 22.12.2023.
+//  Created by artem on 12.03.2024.
 //
 
 import UIKit
