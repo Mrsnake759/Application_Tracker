@@ -2,7 +2,7 @@
 //  SettingsTableViewCell.swift
 //  Tracker
 //
-//  Created by Ivan Cherkashin on 14.01.2024.
+//  Created by artem on 12.03.2024.
 //
 
 import UIKit

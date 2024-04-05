@@ -2,7 +2,7 @@
 //  TrackerViewController.swift
 //  Tracker
 //
-//  Created by Ivan Cherkashin on 22.12.2023.
+//  Created by artem on 12.03.2024.
 //
 
 import UIKit
@@ -47,7 +47,7 @@ final class TrackerViewController: UIViewController {
         searchBar.backgroundImage = .none
         searchBar.backgroundColor = .none
         searchBar.placeholder = NSLocalizedString("Search", comment: "")
-        searchBar.searchTextField.backgroundColor = .ypSearch
+        searchBar.searchTextField.backgroundColor = .ypSearchColor
         searchBar.searchBarStyle = .minimal
         searchBar.searchTextField.clearButtonMode = .never
         searchBar.translatesAutoresizingMaskIntoConstraints = false
@@ -58,7 +58,7 @@ final class TrackerViewController: UIViewController {
         let picker = UIDatePicker()
         picker.preferredDatePickerStyle = .compact
         picker.datePickerMode = .date
-        picker.layer.backgroundColor = UIColor.ypPicker.cgColor
+        picker.layer.backgroundColor = UIColor.ypPickerColor.cgColor
         picker.layer.cornerRadius = 8
         picker.layer.masksToBounds = true
         picker.tintColor = .ypBlue
@@ -130,8 +130,8 @@ final class TrackerViewController: UIViewController {
             queue: .main
         ) { [weak self] _ in
             guard let self else { return }
-            updateTrackerCategories()
-            reloadVisibleCategories()
+            self.updateTrackerCategories()
+            self.reloadVisibleCategories()
         }
     }
     
@@ -324,7 +324,7 @@ final class TrackerViewController: UIViewController {
             message: nil, firstText: NSLocalizedString("Delete", comment: ""),
             secondText: NSLocalizedString("Undo", comment: "")) { [weak self] in
                 guard let self = self else { return }
-                yandexMetrica.reportEvent(event: "Delete Tracker", parameters: ["event": "click", "screen": "Main", "item": "delete"])
+                self.yandexMetrica.reportEvent(event: "Delete Tracker", parameters: ["event": "click", "screen": "Main", "item": "delete"])
                 self.activityIndicator.startAnimating()
                 do {
                     try self.trackerStore.deleteTracker(tracker) }
@@ -439,8 +439,8 @@ extension TrackerViewController: UICollectionViewDelegate {
             
             let editAction = UIAction(title: NSLocalizedString("Edit", comment: ""), handler: { [weak self] _ in
                 guard let self else { return }
-                if let categoryName = categoryStore.categories.first(where: { $0.trackerArray.contains { $0.name == tracker.name } })?.headerName {
-                    yandexMetrica.reportEvent(event: "Attempted searching for trackers on TrackersViewController", parameters: ["event": "click", "screen": "Main", "item": "edit"])
+                if let categoryName = self.categoryStore.categories.first(where: { $0.trackerArray.contains { $0.name == tracker.name } })?.headerName {
+                    self.yandexMetrica.reportEvent(event: "Attempted searching for trackers on TrackersViewController", parameters: ["event": "click", "screen": "Main", "item": "edit"])
                     let viewController = NewHabitViewController()
                     viewController.editTracker = tracker
                     viewController.selectedCategory = categoryName

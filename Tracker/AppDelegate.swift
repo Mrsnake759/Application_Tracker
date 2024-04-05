@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Tracker
 //
-//  Created by Ivan Cherkashin on 22.12.2023.
+//  Created by artem on 12.02.2024.
 //
 
 import UIKit
@@ -31,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         DaysTransformer.register()
         return true
         
-        guard let configuration = YMMYandexMetricaConfiguration(apiKey: "5d57d158-dd3c-417a-b654-25fead389f30") else { return true }
+        guard let configuration = YMMYandexMetricaConfiguration(apiKey: "6a0580ec-d871-431c-8f8b-f8d1d749701d") else { return true }
         YMMYandexMetrica.activate(with: configuration)
         return true
     }
